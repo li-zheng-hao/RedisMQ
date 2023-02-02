@@ -47,7 +47,7 @@ namespace RedisMQ
         /// <summary>
         /// 消费者线程数量
         /// </summary>
-        public int ConsumerThreadCount { get; set; } = 1;
+        public int ConsumerThreadCount { get; set; } = 5;
 
         public string? GroupNamePrefix { get; set; } = "redismq:group";
         public string DefaultGroupName { get; set; }
